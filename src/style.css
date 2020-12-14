@@ -1,0 +1,30 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(17, 17, 17);
+
+  font-family: 'Roboto Mono', monospace;
+  color: #eeeeee;
+  margin: 0;
+}
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 40px;
+  color: #db6622;
+  background-color: rgb(30, 27, 73);
+  transition: 0.3s ease-in-out;
+}
+h1:hover {
+  background-color: rgb(42, 38, 102);
+  transition: 0.3s ease-in-out;
+}
+
+/* COLORS
+darker black #101010
+lighter black #191919
+text - #768c81
+text lighter - #eeeeee */

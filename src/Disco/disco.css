@@ -1,0 +1,59 @@
+.disco a {
+  color: #59b8c9;
+  text-decoration-line: underline;
+  padding: 0;
+}
+.disco a:hover {
+  color: #6adaee;
+}
+.disco-item-flex {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b1b1b1;
+  line-height: 30px;
+}
+.disco-item-subhead {
+  color: #59b8c9;
+  font-style: italic;
+}
+.disco-item-head,
+.disco-item-subhead {
+  display: flex;
+  justify-content: center;
+}
+.disco-album-img {
+  width: 80%;
+}
+@media only screen and (min-width: 576px) {
+  .disco {
+    margin: 0 50px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .disco {
+    margin: 0 100px;
+  }
+  .disco-item {
+    margin: 50px;
+    padding: 20px;
+  }
+  .disco-item-flex {
+    display: flex;
+  }
+  .disco-item-img {
+    flex: 1 1 50%;
+  }
+  .disco-item-text {
+    flex: 1 1 50%;
+  }
+  .disco-item-highlight {
+    color: white;
+  }
+  .disco-item-credits > p {
+    margin: 0;
+  }
+  .disco-item-span1 {
+    color: white;
+  }
+}

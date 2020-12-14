@@ -1,0 +1,22 @@
+.photo__gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .photo__gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gallery-item {
+    width: 50%;
+    filter: grayscale(100%);
+    transition: 0.4s ease-in-out;
+  }
+  .gallery-item:hover {
+    filter: grayscale(0%);
+    transition: 0.4s ease-in-out;
+  }
+}

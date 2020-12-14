@@ -1,0 +1,41 @@
+.kontakt {
+  margin-top: 100px;
+  background-color: #be581e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #eeeeee;
+  font-weight: 700;
+}
+.kontakt__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kontakt-icon {
+  color: #eeeeee;
+  font-size: 20px;
+  padding: 10px;
+}
+.bandzone-logo {
+  filter: invert(100%);
+  width: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+  .kontakt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .kontakt-icon {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .kontakt__links {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
