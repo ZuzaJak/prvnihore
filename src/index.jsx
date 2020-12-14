@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import './index.html';
 import './style.css';
 import Nav from './Nav/nav.jsx';
-/* import Novinky from './Novinky/novinky.jsx'; */
+import Koncerty from './Koncerty/koncerty.jsx';
 import Disco from './Disco/disco.jsx';
 import Fotogalerie from './Fotogalerie/fotogalerie.jsx';
 import Kontakt from './Kontakt/kontakt.jsx';
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Nav />
-      {/*  <Novinky /> */}
+      <Koncerty />
       <Disco />
       <Fotogalerie />
       <Kontakt />

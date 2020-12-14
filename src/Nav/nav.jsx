@@ -11,8 +11,8 @@ const Nav = () => {
         </a>
       </div>
       <div className="nav__links">
-        <a className="nav__links-item" href="#novinky">
-          novinky
+        <a className="nav__links-item" href="#koncerty">
+          koncerty
         </a>
         <a className="nav__links-item" href="#disco">
           diskografie
