@@ -3,6 +3,9 @@ import './disco.css';
 import mechanismus from '../img/mechanismus.jpg';
 import imaginarium from '../img/imaginarium.jpg';
 import silencio from '../img/clubsilencio.jpg';
+import lamento from '../img/lamento.jpg';
+import commedia from '../img/commedia.jpg';
+import naupati from '../img/naupati.jpg';
 
 const Disco = () => {
   return (
@@ -236,6 +239,133 @@ const Disco = () => {
                   Komárková
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="disco-item">
+          <h2 className="disco-item-head">Lamento</h2>
+          <h3 className="disco-item-subhead">(2008, Black Point Music)</h3>
+          <div className="disco-item-flex">
+            <figure className="disco-item-img">
+              <a
+                href="https://prvnihore1.bandcamp.com/album/lamento"
+                target="_blank"
+              >
+                <img
+                  className="disco-album-img"
+                  src={lamento}
+                  alt="fotka obalu"
+                />
+              </a>
+              <figcaption></figcaption>
+            </figure>
+            <div className="disco-item-text">
+              <p>
+                Deska byla natočena v lednu až květnu 2008 ve studiích Entlaab a{' '}
+                <a href="https://studiohostivar.cz/#" target="_blank">
+                  Hostivař
+                </a>{' '}
+                (Zdeněk Šikýř) , smíchána v červnu až červenci 2008 ve studiu{' '}
+                <a
+                  href="https://www.facebook.com/StudioSvarov/"
+                  target="_blank"
+                >
+                  Lukáše Martínka
+                </a>{' '}
+                a masterována ve studiu{' '}
+                <a href="https://www.velvetmastering.com/">Velvet Mastering</a>{' '}
+                (Ivo Sedláček). V Březnu 2009 oceněna Andělem za nejlepší
+                rockovou desku roku a třetím místem v anketě Břitva.
+              </p>
+              <div className="disco-item-credits">
+                <p>
+                  <span className="disco-item-span1">Produkce:</span> První Hoře
+                </p>
+                <p>
+                  <span className="disco-item-span1">Recording: </span>
+                  <a href="https://studiohostivar.cz/#" target="_blank">
+                    {' '}
+                    Zdeněk Šikýř
+                  </a>
+                </p>
+                <p>
+                  <span className="disco-item-span1">Mix: </span>
+                  Lukáš Martínek
+                </p>
+                <p>
+                  <span className="disco-item-span1">Mastering: </span>
+                  Ivo Sedláček
+                </p>
+                <p>
+                  <span className="disco-item-span1">Album art:</span> Petra
+                  Komárková
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="disco-item">
+          <h2 className="disco-item-head">Commedia dell´arte</h2>
+          <h3 className="disco-item-subhead">(2006, Black Point Music)</h3>
+          <div className="disco-item-flex">
+            <figure className="disco-item-img">
+              <a
+                href="https://prvnihore1.bandcamp.com/album/commedia-dell-arte"
+                target="_blank"
+              >
+                <img
+                  className="disco-album-img"
+                  src={commedia}
+                  alt="fotka obalu"
+                />
+              </a>
+              <figcaption></figcaption>
+            </figure>
+            <div className="disco-item-text">
+              <p>
+                Deska byla natočena v roce 2005 ve studiu{' '}
+                <a href="http://3bees.cz/" target="_blank">
+                  3bees
+                </a>{' '}
+                Praha. Vydána v září 2006 u renomovaného vydavatelství{' '}
+                <a href="https://www.blackpoint.cz/" target="_blank">
+                  Black Point music
+                </a>
+                .
+              </p>
+              <div className="disco-item-credits"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="disco-item">
+          <h2 className="disco-item-head">Na úpatí</h2>
+          <h3 className="disco-item-subhead">(2003, self-release)</h3>
+          <div className="disco-item-flex">
+            <figure className="disco-item-img">
+              <img
+                className="disco-album-img"
+                src={naupati}
+                alt="fotka obalu"
+              />
+              <figcaption></figcaption>
+            </figure>
+            <div className="disco-item-text">
+              <p>
+                Deska byla natočena v letech 2002-2003 ve studiích Jizva a
+                Entlaab. Vydána vlastním nákladem, po 2 letech vyprodána, nyní{' '}
+                <a
+                  href="https://ulozto.cz/file/go89qR5r/prvni-hore-na-upati-rar"
+                  target="_blank"
+                >
+                  ZDARMA KE STAŽENÍ
+                </a>
+                . Na CD účinkuje několik hostů, ozvláštněním jsou zejména housle
+                Ondřeje Koláčného.
+              </p>
+              <div className="disco-item-credits"></div>
             </div>
           </div>
         </div>
