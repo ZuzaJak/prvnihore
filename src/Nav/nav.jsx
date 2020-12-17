@@ -10,7 +10,11 @@ const Nav = () => {
           <img className="logo" src={logo} alt="logo" />
         </a>
       </div>
+
       <div className="nav__links">
+        <a className="nav__ham-menu">
+          <i class="fas fa-bars"></i>
+        </a>
         <a className="nav__links-item" href="#koncerty">
           koncerty
         </a>

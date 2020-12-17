@@ -3,19 +3,29 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   display: flex;
   justify-content: space-between;
   height: 100vh;
 }
+.logo {
+  width: 250px;
+  padding: 20px 30px;
+}
 .nav__links {
-  font-weight: 700;
-  font-size: 16px;
-  width: 80%;
+  flex: 1 1 60%;
   display: flex;
+  justify-content: flex-end;
+}
+.nav__ham-menu {
+  cursor: pointer;
+}
+.nav__ham-menu > .fas {
+  font-size: 40px;
+  padding: 40px;
 }
 .nav__links-item {
-  text-decoration: none;
-  color: #eeeeee;
+  display: none;
 }
 .nav__links-item:hover {
   text-decoration: underline;
@@ -23,26 +33,36 @@
   transition: 0.3s;
 }
 @media only screen and (min-width: 576px) {
-  .nav__links {
-    font-weight: 700;
-
-    flex: 1 1 60%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding-right: 10px;
-  }
-  .nav__links-item {
-    padding: 40px;
-    font-size: 25px;
+  .nav {
+    justify-content: space-between;
   }
 }
 @media only screen and (min-width: 768px) {
   .nav__links {
-    font-size: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
   }
-  .logo {
-    width: 250px;
-    padding: 20px 30px;
+}
+@media only screen and (min-width: 992px) {
+  .nav {
+    flex-direction: row;
+  }
+  .nav__ham-menu {
+    display: none;
+  }
+  .nav__links-item {
+    display: block;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 700;
+    padding: 30px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .nav__links-item {
+    font-size: 25px;
+    font-weight: 700;
   }
 }
