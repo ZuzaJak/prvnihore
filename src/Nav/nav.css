@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -22,6 +22,7 @@
 }
 .nav__ham-menu > .fas {
   font-size: 40px;
+  text-shadow: 1px 1px black;
   padding: 40px;
 }
 .nav__links-item {
@@ -55,6 +56,7 @@
     display: block;
     text-decoration: none;
     color: #eeeeee;
+    text-shadow: 1px 1px black;
     font-weight: 700;
     padding: 30px;
     font-size: 20px;
