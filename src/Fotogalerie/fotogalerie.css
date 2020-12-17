@@ -3,7 +3,7 @@
   flex-wrap: wrap;
 }
 .gallery-item {
-  width: 100%;
+  max-width: 100%;
   max-height: auto;
 }
 @media only screen and (min-width: 768px) {
@@ -12,7 +12,7 @@
     flex-wrap: wrap;
   }
   .gallery-item {
-    width: 50%;
+    max-width: 50%;
     filter: grayscale(100%);
     transition: 0.4s ease-in-out;
   }
