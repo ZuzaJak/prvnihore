@@ -7,6 +7,11 @@
   color: #eeeeee;
   font-weight: 700;
 }
+.kontakt__booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .kontakt__links {
   display: flex;
   justify-content: center;
@@ -21,8 +26,13 @@
   filter: invert(100%);
   width: 150px;
 }
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 576px) {
+  .kontakt-icon {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
   .kontakt {
     display: flex;
     flex-direction: row;

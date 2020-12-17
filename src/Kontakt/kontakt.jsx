@@ -8,7 +8,10 @@ const Kontakt = () => {
       <p>
         <i className="fas fa-paper-plane"></i> hore@seznam.cz
       </p>
-      <p>booking Štěpánka Kubíčková +420 774 486 659</p>
+      <p className="kontakt__booking">
+        <span>booking Štěpánka Kubíčková</span>
+        <span> +420 774 486 659</span>
+      </p>
       <div className="kontakt__links">
         <a href="https://www.facebook.com/prvnihoreofficial/" target="_blank">
           <i className="kontakt-icon fab fa-facebook-f"></i>
