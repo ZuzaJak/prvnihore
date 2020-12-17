@@ -3,16 +3,16 @@ import './koncerty.css';
 
 const Koncerty = () => {
   return (
-    <div id="koncerty" className="koncerty">
-      <div className="koncerty__container">
-        <h1>
-          <i class="fas fa-microphone-alt"></i> koncerty
-        </h1>
+    <>
+      <h1>
+        <i class="fas fa-microphone-alt"></i> koncerty
+      </h1>
+      <div id="koncerty" className="koncerty">
         <h2 className="koncerty-info">
           Aktuálně nejsou žádné plánované koncerty.
         </h2>
       </div>
-    </div>
+    </>
   );
 };
 

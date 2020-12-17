@@ -24,6 +24,7 @@
 .disco-item-subhead {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .disco-album-img {
   width: 80%;

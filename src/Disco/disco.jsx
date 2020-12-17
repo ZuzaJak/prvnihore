@@ -20,7 +20,7 @@ const Disco = () => {
           </h2>
           <h3 className="disco-item-subhead">(2017, Kontra Production)</h3>
           <div className="disco-item-flex">
-            <figure className="disco-item-img">
+            <div className="disco-item-img">
               <a
                 href="https://prvnihore1.bandcamp.com/album/k-ehk-mechanismus-pozemsk-ho-t-st"
                 target="_blank"
@@ -31,7 +31,7 @@ const Disco = () => {
                   alt="fotka obalu"
                 />
               </a>
-              <figcaption>
+              <p>
                 Deska Křehký mechanismus pozemského štěstí byla natočena v
                 březnu až červnu ve{' '}
                 <a href="https://studiohostivar.cz/" target="_blank">
@@ -48,8 +48,8 @@ const Disco = () => {
                   Aleš Hyvnar
                 </a>
                 .
-              </figcaption>
-            </figure>
+              </p>
+            </div>
             <div className="disco-item-text">
               <p className="disco-item-highlight">
                 Vašnosti, album "Křehký mechanismus pozemského štěstí" je
@@ -106,7 +106,7 @@ const Disco = () => {
           <h2 className="disco-item-head">Imaginarium</h2>
           <h3 className="disco-item-subhead">(2013, Kontra Production)</h3>
           <div className="disco-item-flex">
-            <figure className="disco-item-img">
+            <div className="disco-item-img">
               <a
                 href="https://prvnihore1.bandcamp.com/album/imaginarium"
                 target="_blank"
@@ -118,7 +118,7 @@ const Disco = () => {
                   alt="fotka obalu"
                 />
               </a>
-              <figcaption>
+              <p>
                 Album bylo natočeno v lednu až říjnu 2013 ve studiích Entlaab a
                 ŠOPA. O mix a mastering se postaral Standa Valášek ze{' '}
                 <a href="http://www.studiosopa.cz/" target="_blank">
@@ -132,8 +132,8 @@ const Disco = () => {
                   Bandcamp
                 </a>{' '}
                 za pouhých 140 korun českých.
-              </figcaption>
-            </figure>
+              </p>
+            </div>
             <div className="disco-item-text">
               <p>Tracklist:</p>
               <ol>
@@ -177,7 +177,7 @@ const Disco = () => {
           <h2 className="disco-item-head">Club Silencio</h2>
           <h3 className="disco-item-subhead">(2011, Kontra Production)</h3>
           <div className="disco-item-flex">
-            <figure className="disco-item-img">
+            <div className="disco-item-img">
               <a
                 href="https://prvnihore1.bandcamp.com/album/club-silencio"
                 target="_blank"
@@ -188,7 +188,7 @@ const Disco = () => {
                   alt="fotka obalu"
                 />
               </a>
-              <figcaption>
+              <p>
                 Album bylo natočeno v lednu až říjnu 2013 ve studiích Entlaab a
                 ŠOPA. O mix a mastering se postaral Standa Valášek ze{' '}
                 <a href="http://www.studiosopa.cz/" target="_blank">
@@ -202,8 +202,8 @@ const Disco = () => {
                   Bandcamp
                 </a>{' '}
                 za pouhých 140 korun českých.
-              </figcaption>
-            </figure>
+              </p>
+            </div>
             <div className="disco-item-text">
               <p>Tracklist:</p>
               <ol>
@@ -247,7 +247,7 @@ const Disco = () => {
           <h2 className="disco-item-head">Lamento</h2>
           <h3 className="disco-item-subhead">(2008, Black Point Music)</h3>
           <div className="disco-item-flex">
-            <figure className="disco-item-img">
+            <div className="disco-item-img">
               <a
                 href="https://prvnihore1.bandcamp.com/album/lamento"
                 target="_blank"
@@ -258,8 +258,7 @@ const Disco = () => {
                   alt="fotka obalu"
                 />
               </a>
-              <figcaption></figcaption>
-            </figure>
+            </div>
             <div className="disco-item-text">
               <p>
                 Deska byla natočena v lednu až květnu 2008 ve studiích Entlaab a{' '}
@@ -310,7 +309,7 @@ const Disco = () => {
           <h2 className="disco-item-head">Commedia dell´arte</h2>
           <h3 className="disco-item-subhead">(2006, Black Point Music)</h3>
           <div className="disco-item-flex">
-            <figure className="disco-item-img">
+            <div className="disco-item-img">
               <a
                 href="https://prvnihore1.bandcamp.com/album/commedia-dell-arte"
                 target="_blank"
@@ -321,8 +320,7 @@ const Disco = () => {
                   alt="fotka obalu"
                 />
               </a>
-              <figcaption></figcaption>
-            </figure>
+            </div>
             <div className="disco-item-text">
               <p>
                 Deska byla natočena v roce 2005 ve studiu{' '}
@@ -344,14 +342,13 @@ const Disco = () => {
           <h2 className="disco-item-head">Na úpatí</h2>
           <h3 className="disco-item-subhead">(2003, self-release)</h3>
           <div className="disco-item-flex">
-            <figure className="disco-item-img">
+            <div className="disco-item-img">
               <img
                 className="disco-album-img"
                 src={naupati}
                 alt="fotka obalu"
               />
-              <figcaption></figcaption>
-            </figure>
+            </div>
             <div className="disco-item-text">
               <p>
                 Deska byla natočena v letech 2002-2003 ve studiích Jizva a
