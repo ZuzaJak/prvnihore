@@ -8,6 +8,9 @@ const Koncerty = () => {
         <h1>
           <i class="fas fa-microphone-alt"></i> koncerty
         </h1>
+        <h2 className="koncerty-info">
+          Aktuálně nejsou žádné plánované koncerty.
+        </h2>
       </div>
     </div>
   );
