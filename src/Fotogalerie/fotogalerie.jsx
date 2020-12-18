@@ -12,10 +12,18 @@ const Fotogalerie = () => {
         <i class="fas fa-camera"></i> fotogalerie
       </h1>
       <div className="photo__gallery">
-        <img className="gallery-item" src={ph_fotka} alt="fotka skupiny" />
-        <img className="gallery-item" src={michal} alt="Michal" />
-        <img className="gallery-item" src={medak} alt="medák" />
-        <img className="gallery-item" src={jirka} alt="Jiří" />
+        <div className="gallery-item">
+          <img src={ph_fotka} alt="fotka skupiny" />
+        </div>
+        <div className="gallery-item">
+          <img src={michal} alt="Michal" />
+        </div>
+        <div className="gallery-item">
+          <img src={medak} alt="medák" />
+        </div>
+        <div className="gallery-item">
+          <img src={jirka} alt="Jiří" />
+        </div>
       </div>
     </div>
   );
