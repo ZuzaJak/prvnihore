@@ -1,5 +1,5 @@
 .nav {
-  background-image: url('../img/ph_obraz.jpg');
+  background-image: url('../img/ph_obraz2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,8 +23,14 @@
 .nav__advert-a {
   color: #ec7028;
 }
+.nav__logo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .logo {
-  width: 160px;
+  width: 250px;
   padding: 20px 30px;
 }
 .nav__links {
@@ -35,6 +41,7 @@
 }
 .nav__ham-menu {
   cursor: pointer;
+  display: none;
 }
 .nav__ham-menu > .fas {
   font-size: 40px;
@@ -54,6 +61,9 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .nav__logo {
+    align-items: flex-start;
+  }
   .nav__links {
     justify-content: flex-end;
   }
@@ -70,6 +80,7 @@
   .nav__advert {
     top: 400px;
   }
+
   .logo {
     width: 250px;
     padding: 20px 30px;
@@ -79,6 +90,7 @@
   .nav {
     flex-direction: row;
   }
+
   .logo {
     width: 300px;
     padding: 20px 30px;
