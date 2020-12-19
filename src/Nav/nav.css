@@ -70,10 +70,18 @@
   .nav__advert {
     top: 400px;
   }
+  .logo {
+    width: 250px;
+    padding: 20px 30px;
+  }
 }
 @media only screen and (min-width: 992px) {
   .nav {
     flex-direction: row;
+  }
+  .logo {
+    width: 300px;
+    padding: 20px 30px;
   }
   .nav__ham-menu {
     display: none;
