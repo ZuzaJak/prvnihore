@@ -29,6 +29,18 @@
 .disco-album-img {
   width: 80%;
 }
+.disco-item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.disco-item-img > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media only screen and (min-width: 576px) {
   .disco {
     margin: 0 50px;
