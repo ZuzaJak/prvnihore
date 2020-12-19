@@ -18,7 +18,10 @@ h1 {
   padding: 40px;
   color: #db6622;
   background-color: rgb(30, 27, 73);
+  border: 1px solid rgb(13, 12, 31);
   transition: 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
 }
 h1:hover {
   background-color: rgb(42, 38, 102);

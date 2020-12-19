@@ -1,17 +1,26 @@
 import React from 'react';
 import './koncerty.css';
+import Collapsible from 'react-collapsible';
 
 const Koncerty = () => {
   return (
     <>
-      <h1>
-        <i class="fas fa-microphone-alt"></i> koncerty
-      </h1>
-      <div id="koncerty" className="koncerty">
-        <h2 className="koncerty-info">
-          Aktuálně nejsou žádné plánované koncerty.
-        </h2>
-      </div>
+      <Collapsible
+        trigger={
+          <h1>
+            <div>
+              <i class="fas fa-microphone-alt"></i> koncerty
+            </div>
+            <i class="fas fa-chevron-down"></i>
+          </h1>
+        }
+      >
+        <div id="koncerty" className="koncerty">
+          <h2 className="koncerty-info">
+            Aktuálně nejsou žádné plánované koncerty.
+          </h2>
+        </div>
+      </Collapsible>
     </>
   );
 };

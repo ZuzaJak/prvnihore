@@ -58,7 +58,7 @@
     justify-content: flex-end;
   }
   .nav__advert {
-    top: 500px;
+    top: 400px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -66,6 +66,9 @@
     width: 80%;
     display: flex;
     justify-content: flex-end;
+  }
+  .nav__advert {
+    top: 400px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -99,15 +102,21 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+  .nav__advert {
+    top: 400px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   .nav__links-item {
     font-size: 25px;
     font-weight: 700;
   }
+  .nav__advert {
+    top: 400px;
+  }
 }
 @media only screen and (min-width: 1500px) {
   .nav__advert {
-    top: 800px;
+    top: 500px;
   }
 }
