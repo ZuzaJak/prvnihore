@@ -4,7 +4,7 @@ import Collapsible from 'react-collapsible';
 
 const Koncerty = () => {
   return (
-    <>
+    <div id="koncerty" className="koncerty">
       <Collapsible
         trigger={
           <h1>
@@ -15,13 +15,11 @@ const Koncerty = () => {
           </h1>
         }
       >
-        <div id="koncerty" className="koncerty">
-          <h2 className="koncerty-info">
-            Aktuálně nejsou žádné plánované koncerty.
-          </h2>
-        </div>
+        <h2 className="koncerty-info">
+          Aktuálně nejsou žádné plánované koncerty.
+        </h2>
       </Collapsible>
-    </>
+    </div>
   );
 };
 

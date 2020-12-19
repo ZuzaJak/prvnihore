@@ -84,8 +84,3 @@
     transition: 0.3s ease-in-out;
   }
 }
-@media only screen and (min-width: 1500px) {
-  .nav__advert {
-    top: 500px;
-  }
-}
