@@ -6,29 +6,13 @@ const Nav = () => {
   return (
     <>
       <div className="nav">
-        <div className="nav__logo">
+        <div className="nav__links">
           <a href="#">
             <img className="logo" src={logo} alt="logo" />
           </a>
-        </div>
-        <div className="nav__links">
-          <a className="nav__ham-menu">
-            <i class="fas fa-bars"></i>
-          </a>
-          <a className="nav__links-item" href="#koncerty">
-            koncerty
-          </a>
-          <a className="nav__links-item" href="#disco">
-            diskografie
-          </a>
-          <a className="nav__links-item" href="#bio">
-            bio
-          </a>
-          <a className="nav__links-item" href="#photo">
-            fotogalerie
-          </a>
           <a className="nav__links-item" href="#kontakt">
-            kontakt
+            <span> o nás</span>
+            <i class="fas fa-angle-double-down"></i>
           </a>
         </div>
       </div>
