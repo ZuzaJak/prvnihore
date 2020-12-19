@@ -1,7 +1,7 @@
 .kontakt {
   background-color: #be581e;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   padding: 20px;
   color: #eeeeee;
