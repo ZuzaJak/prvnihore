@@ -11,7 +11,7 @@ const Nav = () => {
             <img className="logo" src={logo} alt="logo" />
           </a>
           <a className="nav__links-item" href="#koncerty">
-            <span> o nás</span>
+            <span>info a kontakt</span>
             <i class="fas fa-angle-double-down"></i>
           </a>
         </div>

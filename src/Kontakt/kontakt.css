@@ -16,10 +16,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .kontakt-icon {
   color: #eeeeee;
-  font-size: 25px;
+  font-size: 30px;
   padding: 10px;
 }
 .bandzone-logo {
