@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Collapsible from 'react-collapsible';
 import './disco.css';
 import mechanismus from '../img/mechanismus.jpg';
@@ -9,17 +9,20 @@ import commedia from '../img/commedia.jpg';
 import naupati from '../img/naupati.jpg';
 
 const Disco = () => {
+  const [arrow, setArrow] = useState('fas fa-chevron-down');
   return (
     <>
       <Collapsible
         trigger={
           <h1>
             <div>
-              <i class="fas fa-compact-disc"></i> diskografie
+              <i className="fas fa-compact-disc"></i> diskografie
             </div>
-            <i class="fas fa-chevron-down"></i>
+            <i className={arrow}></i>
           </h1>
         }
+        onOpen={() => setArrow('fas fa-chevron-up')}
+        onClose={() => setArrow('fas fa-chevron-down')}
       >
         <div id="disco" className="disco">
           <div className="disco-item">

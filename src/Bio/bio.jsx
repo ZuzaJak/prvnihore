@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './bio.css';
 import Collapsible from 'react-collapsible';
 
 const Bio = () => {
+  const [arrow, setArrow] = useState('fas fa-chevron-down');
   return (
     <>
       <Collapsible
         trigger={
           <h1>
             <div>
-              <i class="fas fa-history"></i> bio
+              <i className="fas fa-history"></i> bio
             </div>
-            <i class="fas fa-chevron-down"></i>
+            <i className={arrow}></i>
           </h1>
         }
+        onOpen={() => setArrow('fas fa-chevron-up')}
+        onClose={() => setArrow('fas fa-chevron-down')}
       >
         <div className="bio" id="bio">
           <h2>1998</h2>

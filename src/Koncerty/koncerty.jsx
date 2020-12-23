@@ -1,19 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './koncerty.css';
+
 import Collapsible from 'react-collapsible';
 
 const Koncerty = () => {
+  const [arrow, setArrow] = useState('fas fa-chevron-down');
+
   return (
     <div id="koncerty" className="koncerty">
       <Collapsible
         trigger={
           <h1>
             <div>
-              <i class="fas fa-microphone-alt"></i> koncerty
+              <i className="fas fa-microphone-alt"></i> koncerty
             </div>
-            <i class="fas fa-chevron-down"></i>
+            <i className={arrow}></i>
           </h1>
         }
+        onOpen={() => setArrow('fas fa-chevron-up')}
+        onClose={() => setArrow('fas fa-chevron-down')}
       >
         <h2 className="koncerty-info">
           Aktuálně nejsou žádné plánované koncerty.

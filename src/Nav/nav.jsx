@@ -12,7 +12,7 @@ const Nav = () => {
           </a>
           <a className="nav__links-item" href="#koncerty">
             <span>info a kontakt</span>
-            <i class="fas fa-angle-double-down"></i>
+            <i className="fas fa-angle-double-down"></i>
           </a>
         </div>
       </div>
