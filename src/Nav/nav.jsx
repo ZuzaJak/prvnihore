@@ -17,7 +17,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="nav__advert">
-        <h2>
+        <h3>
           Poslechněte si naši libou hudbu na{' '}
           <a
             className="nav__advert-a"
@@ -35,7 +35,7 @@ const Nav = () => {
             Youtube
           </a>
           !
-        </h2>
+        </h3>
       </div>
     </>
   );
