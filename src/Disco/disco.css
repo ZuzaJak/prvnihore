@@ -36,6 +36,9 @@
   align-items: center;
   flex-direction: column;
 }
+.disco-item-img > p {
+  width: 80%;
+}
 .disco-item-img > a {
   width: 100%;
   display: flex;
