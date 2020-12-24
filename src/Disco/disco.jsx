@@ -21,8 +21,8 @@ const Disco = () => {
             <i className={arrow}></i>
           </h1>
         }
-        onOpen={() => setArrow('fas fa-chevron-up')}
-        onClose={() => setArrow('fas fa-chevron-down')}
+        onOpening={() => setArrow('fas fa-chevron-up')}
+        onClosing={() => setArrow('fas fa-chevron-down')}
       >
         <div id="disco" className="disco">
           <div className="disco-item">

@@ -15,8 +15,8 @@ const Bio = () => {
             <i className={arrow}></i>
           </h1>
         }
-        onOpen={() => setArrow('fas fa-chevron-up')}
-        onClose={() => setArrow('fas fa-chevron-down')}
+        onOpening={() => setArrow('fas fa-chevron-up')}
+        onClosing={() => setArrow('fas fa-chevron-down')}
       >
         <div className="bio" id="bio">
           <h2>1998</h2>

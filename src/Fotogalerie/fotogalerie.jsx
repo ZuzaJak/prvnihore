@@ -19,8 +19,8 @@ const Fotogalerie = () => {
             <i className={arrow}></i>
           </h1>
         }
-        onOpen={() => setArrow('fas fa-chevron-up')}
-        onClose={() => setArrow('fas fa-chevron-down')}
+        onOpening={() => setArrow('fas fa-chevron-up')}
+        onClosing={() => setArrow('fas fa-chevron-down')}
       >
         <div className="photo__gallery">
           <div className="gallery-item">

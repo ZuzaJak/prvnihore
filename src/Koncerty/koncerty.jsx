@@ -17,8 +17,8 @@ const Koncerty = () => {
             <i className={arrow}></i>
           </h1>
         }
-        onOpen={() => setArrow('fas fa-chevron-up')}
-        onClose={() => setArrow('fas fa-chevron-down')}
+        onOpening={() => setArrow('fas fa-chevron-up')}
+        onClosing={() => setArrow('fas fa-chevron-down')}
       >
         <h2 className="koncerty-info">
           Aktuálně nejsou žádné plánované koncerty.
