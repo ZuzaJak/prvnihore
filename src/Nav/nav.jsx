@@ -8,9 +8,9 @@ const Nav = () => {
     <>
       <div className="nav">
         <div className="nav__links">
-          <a href="#">
+          <Link to="/">
             <img className="logo" src={logo} alt="logo" />
-          </a>
+          </Link>
           <div className="nav-items-flex">
             <NavLink
               activeClassName="is-active"
