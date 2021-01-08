@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import './nav.css';
 import logo from '../img/logo.png';
 
@@ -10,10 +11,32 @@ const Nav = () => {
           <a href="#">
             <img className="logo" src={logo} alt="logo" />
           </a>
-          <a className="nav__links-item" href="#koncerty">
-            <span>info a kontakt</span>
-            <i className="fas fa-angle-double-down"></i>
-          </a>
+          <div className="nav-items-flex">
+            <NavLink
+              activeClassName="is-active"
+              className="nav-item"
+              to="/gigs"
+            >
+              koncerty
+            </NavLink>
+            <NavLink className="nav-item" activeClassName="is-active" to="/bio">
+              bio
+            </NavLink>
+            <NavLink
+              activeClassName="is-active"
+              className="nav-item"
+              to="/disco"
+            >
+              disco
+            </NavLink>
+            <NavLink
+              className="nav-item"
+              activeClassName="is-active"
+              to="/photo"
+            >
+              photo
+            </NavLink>
+          </div>
         </div>
       </div>
       <div className="nav__advert">

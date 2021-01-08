@@ -2,23 +2,32 @@ import React from 'react';
 import { render } from 'react-dom';
 import './index.html';
 import './style.css';
-import Nav from './Nav/nav.jsx';
-import Koncerty from './Koncerty/koncerty.jsx';
-import Bio from './Bio/bio.jsx';
-import Disco from './Disco/disco.jsx';
-import Fotogalerie from './Fotogalerie/fotogalerie.jsx';
-import Kontakt from './Kontakt/kontakt.jsx';
+import HomePage from './Pages/HomePage.jsx';
+import BioPage from './Pages/BioPage.jsx';
+import DiscoPage from './Pages/DiscoPage.jsx';
+import GigsPage from './Pages/GigsPage.jsx';
+import PhotoPage from './Pages/PhotoPage.jsx';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-const App = () => {
-  return (
-    <>
-      <Nav />
-      <Koncerty />
-      <Bio />
-      <Disco />
-      <Fotogalerie />
-      <Kontakt />
-    </>
-  );
-};
+const App = () => (
+  <Router>
+    <Switch>
+      <Route path="/bio">
+        <BioPage />
+      </Route>
+      <Route path="/disco">
+        <DiscoPage />
+      </Route>
+      <Route path="/gigs">
+        <GigsPage />
+      </Route>
+      <Route path="/photo">
+        <PhotoPage />
+      </Route>
+      <Route path="/">
+        <HomePage />
+      </Route>
+    </Switch>
+  </Router>
+);
 render(<App />, document.querySelector('#app'));
