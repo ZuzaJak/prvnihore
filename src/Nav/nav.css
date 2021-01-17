@@ -56,9 +56,10 @@
 .nav-item {
   color: white;
   padding: 15px 0;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   text-decoration: none;
+  font-family: 'Lobster', cursive;
 }
 @media only screen and (min-width: 768px) {
   .nav {
@@ -86,7 +87,7 @@
   .nav-item {
     color: white;
     padding: 30px 20px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     text-decoration: none;
   }
