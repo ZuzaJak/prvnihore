@@ -18,7 +18,7 @@ const Nav = () => {
       elevation={0}
       getContentAnchorEl={null}
       anchorOrigin={{
-        vertical: 'bottom',
+        vertical: 'top',
         horizontal: 'center',
       }}
       transformOrigin={{
