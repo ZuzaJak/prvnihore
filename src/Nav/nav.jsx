@@ -49,16 +49,38 @@ const Nav = () => {
               activeClassName="is-active"
               className="nav-item"
               to="/gigs"
+              onClick={() => {
+                scrollTo({
+                  top: 1000,
+                  behavior: 'smooth',
+                });
+              }}
             >
               koncerty
             </NavLink>
-            <NavLink className="nav-item" activeClassName="is-active" to="/bio">
+            <NavLink
+              className="nav-item"
+              activeClassName="is-active"
+              to="/bio"
+              onClick={() => {
+                scrollTo({
+                  top: 1000,
+                  behavior: 'smooth',
+                });
+              }}
+            >
               bio
             </NavLink>
             <NavLink
               activeClassName="is-active"
               className="nav-item"
               to="/disco"
+              onClick={() => {
+                scrollTo({
+                  top: 1000,
+                  behavior: 'smooth',
+                });
+              }}
             >
               disco
             </NavLink>
@@ -66,6 +88,12 @@ const Nav = () => {
               className="nav-item"
               activeClassName="is-active"
               to="/photo"
+              onClick={() => {
+                scrollTo({
+                  top: 1000,
+                  behavior: 'smooth',
+                });
+              }}
             >
               photo
             </NavLink>
@@ -92,6 +120,12 @@ const Nav = () => {
                 activeClassName="is-active"
                 className="nav-item-mobile"
                 to="/gigs"
+                onClick={() => {
+                  scrollTo({
+                    top: 100,
+                    behavior: 'smooth',
+                  });
+                }}
               >
                 koncerty
               </NavLink>
@@ -101,6 +135,12 @@ const Nav = () => {
                 className="nav-item-mobile"
                 activeClassName="is-active"
                 to="/bio"
+                onClick={() => {
+                  scrollTo({
+                    top: 100,
+                    behavior: 'smooth',
+                  });
+                }}
               >
                 bio
               </NavLink>
@@ -110,6 +150,12 @@ const Nav = () => {
                 activeClassName="is-active"
                 className="nav-item-mobile"
                 to="/disco"
+                onClick={() => {
+                  scrollTo({
+                    top: 100,
+                    behavior: 'smooth',
+                  });
+                }}
               >
                 disco
               </NavLink>
@@ -119,6 +165,12 @@ const Nav = () => {
                 className="nav-item-mobile"
                 activeClassName="is-active"
                 to="/photo"
+                onClick={() => {
+                  scrollTo({
+                    top: 100,
+                    behavior: 'smooth',
+                  });
+                }}
               >
                 photo
               </NavLink>
